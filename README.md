@@ -2,26 +2,26 @@
 
 
 
-# [Project Name] 🎯
+# Cash-O-Clock 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Code Red
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Darshini Prakash A K - LBSITW
+- Member 2: Ahna Shajahan - LBSITW
+  
 
 ### Project Description
-[2-3 lines about what your project does]
+Cash-O-Clock is a gamified alarm clock that turns morning laziness into a real-time financial consequence. By leveraging automated UPI debits, hitting snooze instantly transfers a monetary penalty to a rival or designated recipient, ensuring you either wake up on time or pay the price.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Every morning, millions of ambitious humans suffer from Chronological Denial Syndrome—a dangerous delusion where your brain genuinely believes that sleeping for 300 extra seconds will fix your life, rather than make you late for work. Traditional alarms offer infinite mercy with zero consequences, allowing your half-asleep self to completely destroy the goals of your night-time self. Loud beeps and math puzzles fail because sleep-deprived brains adapt quickly, leaving us with a system where bed warmth always wins over self-discipline.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Rather than fixing your sleep habits, **Cash-O-Clock** weaponizes capitalist dread by turning your snooze button into a high-risk financial terminal. If willpower won't drag you out of bed, watching ₹50 instantly fly out of your UPI account directly to your arch-rival definitely will—making laziness literally too expensive to afford.
 
 ## Technical Details
 ### Technologies/Components Used
@@ -31,10 +31,6 @@ For Software:
 - [Libraries used]
 - [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
