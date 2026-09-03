@@ -42,8 +42,7 @@ For Software:
   pip install streamlit requests qrcode pillow
 
  # **Run**
-   # **Start the Streamlit frontend**
-  streamlit run app.py
+   https://cash-o-clock-bkscgftlgayjiaivmvdgmx.streamlit.app/
 
 ### Project Documentation
 For Software:
