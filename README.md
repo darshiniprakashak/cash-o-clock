@@ -33,7 +33,7 @@ For Software:
 
 ### Implementation
 For Software:
- **Installation**
+ #**Installation**
    **Clone the repository**
   git clone https://github.com/your-username/cash-o-clock.git
   cd cash-o-clock
