@@ -33,15 +33,15 @@ For Software:
 
 ### Implementation
 For Software:
- Installation
-   Clone the repository
+ **Installation**
+   **Clone the repository**
   git clone https://github.com/your-username/cash-o-clock.git
   cd cash-o-clock
 
-   Install required dependencies
+   **Install required dependencies**
   pip install streamlit requests qrcode pillow
 
- Run
+ **Run**
    Start the Streamlit frontend
   streamlit run app.py
 
