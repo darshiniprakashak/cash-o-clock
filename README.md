@@ -42,7 +42,7 @@ For Software:
   pip install streamlit requests qrcode pillow
 
  # **Run**
-   **Start the Streamlit frontend**
+   # **Start the Streamlit frontend**
   streamlit run app.py
 
 ### Project Documentation
