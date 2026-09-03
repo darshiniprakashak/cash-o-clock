@@ -15,7 +15,7 @@
   
 
 ### Project Description
-Cash-O-Clock is a gamified alarm clock that turns morning laziness into a real-time financial consequence. By leveraging automated UPI debits, hitting snooze instantly transfers a monetary penalty to a rival or designated recipient, ensuring you either wake up on time or pay the price.
+Cash-O-Clock is a gamified alarm clock website that turns morning laziness into a real-time financial consequence. By leveraging automated UPI debits, hitting snooze instantly transfers a monetary penalty to a rival or designated recipient, ensuring you either wake up on time or pay the price.
 
 ### The Problem (that doesn't exist)
 Every morning, millions of ambitious humans suffer from Chronological Denial Syndrome—a dangerous delusion where your brain genuinely believes that sleeping for 300 extra seconds will fix your life, rather than make you late for work. Traditional alarms offer infinite mercy with zero consequences, allowing your half-asleep self to completely destroy the goals of your night-time self. Loud beeps and math puzzles fail because sleep-deprived brains adapt quickly, leaving us with a system where bed warmth always wins over self-discipline.
