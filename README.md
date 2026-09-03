@@ -81,61 +81,8 @@ This screenshot shows the **Payment Receipt & UPI Authorization Screen** of the 
 * **Reset Setup Panel:** Below the receipt, the alarm setup configuration re-renders, enabling the user to adjust settings or reactivate the alarm for another cycle.
 
 # Diagrams
-+-------------------------------------------------------------+
-|                      USER OPENS APP                         |
-+-------------------------------------------------------------+
-                               |
-                               v
-+-------------------------------------------------------------+
-|                    LANDING PAGE SCREEN                      |
-|              [ Launch Cash-O-Clock Button ]                 |
-+-------------------------------------------------------------+
-                               |
-                               v
-+-------------------------------------------------------------+
-|                   ALARM SETUP DASHBOARD                     |
-|  - Set Penalty Amount (e.g., ₹5, ₹10, ₹20)                 |
-|  - Input Target UPI ID (e.g., receiver@okaxis)             |
-|  - Select Alarm Time / Trigger Instant Demo Mode            |
-+-------------------------------------------------------------+
-                               |
-                               v
-+-------------------------------------------------------------+
-|               ACTIVE RINGING STATE (ALARM)                  |
-|               - Plays Loud Alarm Sound                      |
-|               - Prompts Financial Warning Message           |
-+-------------------------------------------------------------+
-                        /             \
-                       /               \
-       [ ALARM OFF ]  /                 \  [ SNOOZE ]
-                     /                   \
-                    v                     v
-+------------------------+   +--------------------------------+
-|     DISARM ALARM       |   |  API REQUEST TO BACKEND        |
-| - Plays Victory Sound  |   |  POST /api/snooze              |
-| - Shows Success Banner |   +--------------------------------+
-| - Zero Penalty Charged |                   |
-+------------------------+                   v
-                             +--------------------------------+
-                             | BACKEND GENERATES              |
-                             | - Transaction Reference Code   |
-                             | - Deep-link UPI Payment URL    |
-                             +--------------------------------+
-                                             |
-                                             v
-                             +--------------------------------+
-                             | FRONTEND UPDATES               |
-                             | - Increment Total Penalty      |
-                             | - Increment Snooze Count       |
-                             | - Render Dynamic QR Code       |
-                             +--------------------------------+
-                                             |
-                                             v
-                             +--------------------------------+
-                             | USER SCANS QR CODE             |
-                             | Authorizes Payment via GPay /  |
-                             | PhonePe / Paytm                |
-                             +--------------------------------+
+<img width="647" height="1012" alt="DIAGRAM-WORKFLOW" src="https://github.com/user-attachments/assets/84b91105-75a4-4ee0-8a78-3b344d6678fd" />
+
 System Workflow Architecture
 This diagram maps out the end-to-end user journey and data processing logic within the Cash-O-Clock application:
 
